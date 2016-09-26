@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <title>Red Squirrelious</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+<head>
+    <title>Red Squirrelious Portfolio Index</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-</header>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
 
 <body>
     <header>
-        <h1> Red Squirrelious </h1>
+        <a href="index.html"><h1> Red Squirrelious </h1></a>
         <nav>
             <ul>
                 <li>
-                <a href="index.html"> Red Squirrelious </a>
-                <img src="/assets/images/cc_squirrel.jpg">
+                    <a href="portfolio.html"> Portfolio </a>
                 </li>
                 <li>
-                <a href="portfolio.html"> Portfolio </a>
-                <img src="/assets/images/ruby.jpg">
+                    <a href="sundry.html"> Sundry </a>
                 </li>
                 <li>
-                <a href="code-journals/code-journal.html"> Code Journals </a>
-                </li>
-                <a href="sundry.html"> Sundry </a>
-                <img src="/assets/images/ADA_scavenger_hunt-sk.jpg">                
-                <li>
-                <a href="about.html"> About Red Squirrelious </a>
-                <img src="/assets/images/SFO_science_center-sk.jpg">
+                    <a href="about.html"> About </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <div class="space-after">
+            <article id="about">
+                <section>
+                    <a href="about.html">
+                        <img src="assets/images/cc_squirrel.jpg" alt="A cute, fuzzy squirrel" class="hover">
+                    </a>
+                </section>
+                <section>
+                    <p class="index-text">
+                        About Red Squirrelious
+                    </p>
+                </section>
+            </article>
+        </div>
+        <div class="center-space">
+            <article id="portfolio">
+                <section>
+                    <a href="portfolio.html">
+                        <img src="assets/images/SFO_science_center-sk.jpg" alt="Sassa holding out her hand and laughing" class="hover">
+                    </a>
+                </section>
+                <section>
+                    <p class="index-text">
+                        Portfolio
+                    </p>
+                </section>
+            </article>
+        </div>
+        <div class="space-before">
+            <article id="sundry">
+                <section>
+                    <a href="sundry.html">
+                        <img src="assets/images/ADA_scavenger_hunt-sk.jpg" alt="Sassa holding up a child's toy" class="hover">
+                    </a>
+                </section>
+                <section>
+                    <p class="index-text">
+                        Sundry
+                    </p>
+                </section>
+            </article>
+        </div>
     </main>
+    <footer>
+        <h4> &copy; 2016 </h4>
+        <p id="disclaimer"> Red Squirrelious is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date. </p>
+        <nav>
+            <ul>
+                <li class="footer-img">
+                    <a href="https://www.linkedin.com/in/sassa-kitka-4704102b">
+                        <img src="assets/images/In-2C-121px-TM.png" alt="Linkedin mark">
+                    </a>
+                </li>
+                <li class="footer-img">
+                    <a href="https://github.com/RedSquirrelious">
+                        <img src="assets/images/GitHub-Mark-120px-plus.png" alt="GitHub mark">
+                    </a>
+                </li>
+                <li class="footer-img">
+                    <a href="https://twitter.com/redsquirrelious">
+                        <img src="assets/images/Twitter_Logo_White_On_Blue.png" alt="Twitter logo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 </body>
-<footer>
-    <h4> &copy; 2016 </h4>
-    <p id="disclaimer"> Red Squirrelious is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date. </p>
-    <nav>
-        <ul>
-            <li><a href="about.html"> About </a></li>
-            <li><a href="https://github.com/RedSquirrelious"> GitHub </a></li>
-            <li><a href="https://www.linkedin.com/in/sassa-kitka-4704102b"> Linkedin </a></li>
-            <li><a href="https://twitter.com/redsquirrelious"> Twitter </a></li>
-            <!--                 <li><a href="#contact"> Contact </a> </li> -->
-        </ul>
-    </nav>
-</footer>
 
 </html>
